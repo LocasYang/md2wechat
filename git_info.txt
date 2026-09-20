@@ -1,0 +1,8 @@
+gitea	https://gitea.njfu-yangfan.top/FayneDay/md2wechat.git (fetch)
+gitea	https://gitea.njfu-yangfan.top/FayneDay/md2wechat.git (push)
+gitee	https://gitee.com/rain-henny/md2wechat.git (fetch)
+gitee	https://gitee.com/rain-henny/md2wechat.git (push)
+github	https://github.com/LocasYang/md2wechat.git (fetch)
+github	https://github.com/LocasYang/md2wechat.git (push)
+Fayne Yang
+yangfanaixuexi@163.com

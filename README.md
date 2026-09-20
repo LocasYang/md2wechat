@@ -7,7 +7,7 @@
 把 Markdown 变成可以直接粘贴进公众号编辑器的排版
 纯本地运行 · 不依赖任何第三方服务 · 公式离线渲染
 
-[下载安装](#-下载安装) · [功能特性](#-功能特性) · [技术实现](#-技术实现) · [使用方法](#-使用方法) · [从源码构建](#-从源码构建)
+[功能特性](#-功能特性) · [技术实现](#-技术实现) · [使用方法](#-使用方法) · [从源码构建](#-从源码构建)
 
 ![界面预览](docs/ui-dark.png)
 
@@ -26,24 +26,6 @@
 
 纯 C++ / Qt 实现，**不调用任何网页接口、不依赖任何第三方排版服务**，
 你的内容不会经过别人的服务器。
-
-## 📥 下载安装
-
-**方式一：直接下载（推荐，不需要任何编译环境）**
-
-到 Release 页面下载 `md2wechat-<版本>-win64.zip`，解压后**双击 `md2wechat.exe`** 即可。
-免安装，不需要 Qt、Python 或 Visual Studio。
-
-| 平台 | 下载地址 |
-| --- | --- |
-| GitHub | <https://github.com/YOUR_NAME/md2wechat/releases/latest> |
-| Gitee | <https://gitee.com/YOUR_NAME/md2wechat/releases> |
-
-> 💡 建议优先用 GitHub 的 Release（附件更大），Gitee 的发行版作为国内镜像。
-> ⚠️ 首次运行如果提示缺少 `VCRUNTIME140.dll`，安装一次微软
-> [VC++ 运行库](https://aka.ms/vs/17/release/vc_redist.x64.exe) 即可。
-
-**方式二：从源码构建** —— 见下文 [从源码构建](#-从源码构建)。
 
 ## ✨ 功能特性
 
@@ -205,7 +187,7 @@ $$
 **方式二**：命令行
 
 ```bat
-git clone https://github.com/YOUR_NAME/md2wechat.git
+git clone https://github.com/LocasYang/md2wechat.git
 cd md2wechat
 build.bat
 ```

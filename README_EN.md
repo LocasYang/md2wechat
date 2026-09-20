@@ -8,7 +8,7 @@ Turn Markdown into typeset content you can paste straight into the WeChat
 Official Account editor.
 100% local · no third-party service · offline math rendering
 
-[Download](#-download--install) · [Features](#-features) · [How it works](#-how-it-works) · [Usage](#-usage) · [Build from source](#-build-from-source)
+[Features](#-features) · [How it works](#-how-it-works) · [Usage](#-usage) · [Build from source](#-build-from-source)
 
 ![Screenshot](docs/ui-dark.png)
 
@@ -29,25 +29,6 @@ Press one button — *Copy for WeChat* — then `Ctrl+V` in the WeChat editor.
 
 Written in pure C++ / Qt. It **never calls a web API and never depends on a
 third-party formatting service** — your content never touches anyone else's server.
-
-## 📥 Download & Install
-
-**Option 1: grab a prebuilt binary (recommended — no toolchain needed)**
-
-Download `md2wechat-<version>-win64.zip` from the Releases page, unzip it and
-**double-click `md2wechat.exe`**. No installer, no Qt, no Python, no Visual Studio.
-
-| Platform | Download |
-| --- | --- |
-| GitHub | <https://github.com/YOUR_NAME/md2wechat/releases/latest> |
-| Gitee (mirror) | <https://gitee.com/YOUR_NAME/md2wechat/releases> |
-
-> 💡 Prefer the GitHub Release (it allows larger attachments); the Gitee
-> release acts as a mirror for mainland China.
-> ⚠️ If the first launch complains about a missing `VCRUNTIME140.dll`, install the
-> [VC++ runtime](https://aka.ms/vs/17/release/vc_redist.x64.exe) once.
-
-**Option 2: build from source** — see [Build from source](#-build-from-source).
 
 ## ✨ Features
 
@@ -229,7 +210,7 @@ kit and build.
 **Option 2**: command line
 
 ```bat
-git clone https://github.com/YOUR_NAME/md2wechat.git
+git clone https://github.com/LocasYang/md2wechat.git
 cd md2wechat
 build.bat
 ```
