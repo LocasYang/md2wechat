@@ -1,0 +1,27 @@
+# build output
+build/
+bin/
+release/
+*.obj
+*.res
+
+# Qt / qmake
+.qmake.stash
+*.pro.user
+*.pro.user.*
+moc_*.cpp
+qrc_*.cpp
+Makefile*
+*.o
+
+# logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vs/
+.idea/
+*.swp

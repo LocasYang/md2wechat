@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/logo.svg</file>
+        <file>icons/check.svg</file>
+        <file>icons/ui.svg</file>
+        <file>examples/demo.md</file>
+        <file>examples/demo.png</file>
+    </qresource>
+    <qresource prefix="/vendor/mathjax">
+        <file alias="tex-svg.js">vendor/mathjax/tex-svg.js</file>
+    </qresource>
+</RCC>
